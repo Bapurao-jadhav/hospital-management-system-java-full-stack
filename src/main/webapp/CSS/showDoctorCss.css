@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+#heading{
+	text-align: center;
+	    font-family: Arial, sans-serif;
+	     padding:25px;
+	
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    padding:40px;
+}
+
+/* Table Container */
+.table-container{
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.table-container h2{
+    margin-bottom:20px;
+    color:#2c3e50;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    overflow:hidden;
+    border-radius:6px;
+}
+
+/* Table Header */
+thead{
+    background:#2c3e50;
+    color:white;
+}
+
+th{
+    padding:14px;
+    text-align:left;
+    font-size:14px;
+    letter-spacing:0.5px;
+}
+
+/* Table Body */
+td{
+    padding:12px 14px;
+    border-bottom:1px solid #e5e5e5;
+    font-size:14px;
+    color:#333;
+}
+
+/* Alternate Row Color */
+tbody tr:nth-child(even){
+    background:#f9f9f9;
+}
+
+/* Hover Effect */
+tbody tr:hover{
+    background:#ecf0f1;
+    transition:0.3s;
+}
+
+/* Status Badge */
+.status{
+    padding:5px 12px;
+    border-radius:12px;
+    font-size:12px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+.active{
+    background:#d5f5e3;
+    color:#1e8449;
+}
+
+.inactive{
+    background:#fce4ec;
+    color:#c0392b;
+}

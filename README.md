@@ -105,7 +105,6 @@ Main dependencies used:
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
-
 ---
 
 ## Author
